@@ -1,0 +1,20 @@
+ion-content{
+    
+    --ion-background-color: #121212;
+}
+.custom-image {
+    width: 100%; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: 10rem;
+  }
+ion-title{
+    text-align: center;
+}
+.image-button {
+    background: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    padding: 0; /* Sin espacio interno */
+    box-shadow: none; /* Sin sombra */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    outline: none; /* Quita el contorno cuando se hace clic */
+    
+  }

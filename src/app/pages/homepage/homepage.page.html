@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>MENU</ion-title>
+    <ion-button (click)="logout()" slot="end" color="warning"><ion-icon name="log-out-outline" ></ion-icon></ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large" style="color: white" >Menu</ion-title>
+      
+    </ion-toolbar>
+  </ion-header>
+<ion-grid>
+  <ion-row>
+    <ion-col size="6">
+      <ion-card color="warning">
+        <img alt="Burger" src="https://hips.hearstapps.com/hmg-prod/images/smash-burger-eiliv-aceron-unsplash-elle-gourmet-1669736023.jpg?resize=980:*" class="custom-image" />
+        <ion-card-header>
+          <ion-card-title>Combos</ion-card-title>
+          <ion-card-subtitle>Cangreburgers</ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </ion-col>
+    <ion-col size="6">
+      <ion-card color="warning">
+    <img  alt="Papas Fritas" src="https://www.elfinanciero.com.mx/resizer/RvoRkTCT5ksGioyoUaXWIv3QDkA=/1200x630/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/MDLUVR7YPREWTIU3UHFWXJXJI4.jpg" class="custom-image" />
+        <ion-card-header>
+          <ion-card-title>Snacks</ion-card-title>
+          <ion-card-subtitle>Deliciosos</ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+  <ion-card style="height: 19rem;" color="warning">
+    <img alt="Promociones" src="https://c4.wallpaperflare.com/wallpaper/672/503/735/fast-food-junk-food-food-hamburger-wallpaper-preview.jpg" />
+    <ion-card-header>
+      <ion-card-title>Promociones</ion-card-title>
+      <ion-card-subtitle>Lo mas barato</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content> Card Content </ion-card-content>
+  </ion-card>
+</ion-content>
